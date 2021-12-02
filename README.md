@@ -5,10 +5,11 @@ It is not meant to be used as a plugin since I don't want to maintain one. To us
 plugins from base plugins sections and paste content of `settings.json` at the end of yours.
 
 ## Base plugins
-This is base on the following plugins:
+This is based on the following plugins:
 
 - [Darcula theme](https://marketplace.visualstudio.com/items?itemName=rokoroku.vscode-theme-darcula)
 - [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby)
+- [JetBrains font (not a plugin)](https://www.jetbrains.com/lp/mono/)
 
 ## Notes
 
