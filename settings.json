@@ -1,0 +1,162 @@
+{
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 13,
+    "editor.fontWeight": "normal",
+    "editor.letterSpacing": 0.3,
+    "editor.lineHeight": 22,
+    "workbench.colorTheme": "Darcula",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "Default color",
+                "scope": "source.ruby",
+                "settings": {
+                    "foreground": "#A9B7C6",
+                }
+            },
+            {
+                "name": "Operator Keywords",
+                "scope": "keyword.operator,keyword.operator.logical,keyword.operator.relational,keyword.operator.assignment,keyword.operator.comparison,keyword.operator.ternary,keyword.operator.arithmetic,keyword.operator.spread,punctuation.separator.object.ruby",
+                "settings": {
+                    "foreground": "#CC7832"
+                }
+            },
+            {
+                "name": "Number",
+                "scope": "constant.numeric",
+                "settings": {
+                    "foreground": "#A5C261"
+                }
+            },
+            {
+                "name": "Types, Class Types",
+                "scope": "entity.name.type,meta.return.type,meta.type.annotation,meta.type.parameters,support.type.primitive",
+                "settings": {
+                    "foreground": "#CC7832"
+                }
+            },
+            {
+                "name": "Class Name",
+                "scope": "entity.name.type.class",
+                "settings": {
+                    "foreground": "#9876AA"
+                }
+            },
+            {
+                "name": "Ruby Class Name",
+                "scope": "entity.name.type.class.ruby",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "Class Inheritances",
+                "scope": "entity.other.inherited-class",
+                "settings": {
+                    "foreground": "#DA4939",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "name": "Class Inheritances Separator",
+                "scope": "punctuation.separator.inheritance.ruby",
+                "settings": {
+                    "foreground": "#CC7832",
+                }
+            },
+            {
+                "name": "Symbol Hash Key",
+                "scope": "constant.language.symbol.hashkey.ruby",
+                "settings": {
+                    "foreground": "#6E9CBE",
+                }
+            },
+            {
+                "name": "Symbol",
+                "scope": "constant.language.symbol.ruby",
+                "settings": {
+                    "foreground": "#6E9CBE",
+                }
+            },
+            {
+                "name": "Keyword Control",
+                "scope": "keyword.control.ruby,keyword.control.class.ruby,keyword.control.def.ruby,constant.language.boolean.ruby,constant.language.nil.ruby,keyword.operator.logical.ruby,keyword.control.pseudo-method.ruby,variable.language.self.ruby",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "name": "Class Inheritances",
+                "scope": "keyword.other.special-method.ruby",
+                "settings": {
+                    "foreground": "#DA4939"
+                }
+            },
+            {
+                "name": "Constant",
+                "scope": "variable.other.constant.ruby,support.class.ruby",
+                "settings": {
+                    "foreground": "#DA4939"
+                }
+            },
+            {
+                "name": "Symbol Haskey Separator",
+                "scope": "punctuation.definition.constant.hashkey.ruby",
+                "settings": {
+                    "foreground": "#A9B7C6"
+                }
+            },
+            {
+                "name": "Instance Variable",
+                "scope": "variable.other.readwrite.instance.ruby",
+                "settings": {
+                    "foreground": "#D0D0FF"
+                }
+            },
+            {
+                "name": "Parameters",
+                "scope": "variable.parameter.function.ruby",
+                "settings": {
+                    "foreground": "#9876AA"
+                }
+            },
+            {
+                "name": "Block Parameters",
+                "scope": "variable.other.block.ruby",
+                "settings": {
+                    "foreground": "#9876AA"
+                }
+            },
+            {
+                "name": "Reset function call to default",
+                "scope": "entity.name.function",
+                "settings": {
+                    "foreground": "#A9B7C6"
+                }
+            },
+            {
+                "name": "Function",
+                "scope": "entity.name.function.ruby",
+                "settings": {
+                    "foreground": "#FFC66D"
+                }
+            },
+            // Note: I wasn't able to override entity.name.function.ruby with this so it's pointless atm
+            // {
+            //     "name": "Function Call",
+            //     "scope": "meta.function-call.ruby",
+            //     "settings": {
+            //         "foreground": "#A9B7C6"
+            //     }
+            // },
+            // Note: Should be #0078B4 but since I can't override method call it feel better to keep it white
+            // {
+            //     "name": "Variables",
+            //     "scope": "variable.other.ruby",
+            //     "settings": {
+            //         "foreground": "#A9B7C6"
+            //     }
+            // }
+        ]
+    }
+}
